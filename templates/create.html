@@ -1,0 +1,31 @@
+<div class="row pt-5">
+  <div class="col-md-2">
+    <ul class="nav nav-pills flex-column">
+      <li class="nav-item">
+        <a class="nav-link active" href="#!/">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#!/createPost">Add Post</a>
+      </li>
+    </ul>
+  </div>
+  <div class="col-md-10">
+    <div>
+      <form id="myform">
+        <fieldset>
+          <div class="form-group">
+            <label>Title</label>
+            <input type="text" class="form-control" id="title" name="title" placeholder="Title">
+          </div>
+          <div class="form-group">
+            <label>Description</label>
+            <textarea class="form-control" id="description" rows="3" name="description" placeholder="Description"></textarea>
+          </div>
+          <p id="msg"></p>
+          <input type="button" id="submit" class="btn btn-primary" value="ADD POST">
+          <a href="#!/" class="btn btn-primary">BACK</a>
+        </fieldset>
+      </form>
+    </div>
+  </div>
+</div>
